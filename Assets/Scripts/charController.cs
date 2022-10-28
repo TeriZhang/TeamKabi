@@ -17,11 +17,12 @@ public class charController : MonoBehaviour
     void Update()
     {
         inputs();
+        move();
     }
 
     private void FixedUpdate()
     {
-        move();
+        
     }
 
     void inputs()
