@@ -231,8 +231,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5707fd6e657a3c54ab0d54163e12d932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sister1: {fileID: 0}
-  sister2: {fileID: 0}
+  sister1: {fileID: 1275157696}
+  sister2: {fileID: 1412173332}
   currentSister: {fileID: 0}
   sister: 0
 --- !u!4 &373420115
@@ -556,7 +556,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1275157696}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66065ee8fbb1e6641b4fb31c06242b56, type: 3}
   m_Name: 
@@ -576,7 +576,7 @@ GameObject:
   - component: {fileID: 1412173334}
   - component: {fileID: 1412173333}
   m_Layer: 0
-  m_Name: Sister (1)
+  m_Name: Sister1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412173332}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66065ee8fbb1e6641b4fb31c06242b56, type: 3}
   m_Name: 
@@ -626,7 +626,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412173332}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 3.92, y: 0.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1123973115}
