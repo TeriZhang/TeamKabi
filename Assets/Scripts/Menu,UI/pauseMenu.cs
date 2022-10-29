@@ -11,7 +11,6 @@ public class pauseMenu : MonoBehaviour
 
     public GameObject reStartUI;
 
-    public GameObject SoundUI;
 
     public GameObject SoundOnUI;
 
@@ -29,8 +28,6 @@ public class pauseMenu : MonoBehaviour
         pauseUI.SetActive(true);
 
         quitUI.SetActive(false);
-
-        SoundUI.SetActive(false);
 
         reStartUI.SetActive(false);
 
@@ -64,8 +61,6 @@ public class pauseMenu : MonoBehaviour
 
             quitUI.SetActive(true);
 
-            SoundUI.SetActive(true);
-
             reStartUI.SetActive(true);
         }
 
@@ -74,8 +69,6 @@ public class pauseMenu : MonoBehaviour
             pauseUI.SetActive(true);
 
             quitUI.SetActive(false);
-
-            SoundUI.SetActive(false);
 
             reStartUI.SetActive(false);
 
