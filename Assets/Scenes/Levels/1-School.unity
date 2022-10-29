@@ -15456,6 +15456,8 @@ MonoBehaviour:
   - {fileID: 103590993}
   - {fileID: 275713061}
   - {fileID: 266405488}
+  altered: {fileID: 0}
+  talking: {fileID: 0}
 --- !u!1 &819445909
 GameObject:
   m_ObjectHideFlags: 0
@@ -27181,6 +27183,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1496969844 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1791641439469376362, guid: 14330f108f4d94443a863181bf2ff9e9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1047339}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1496969848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496969844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 607bb943104555a47a77f45a9885525d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1497100353
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35400,7 +35420,7 @@ GameObject:
   - component: {fileID: 2031259052}
   m_Layer: 0
   m_Name: DetectionRing (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
