@@ -19,7 +19,7 @@ public class WinLoseMenu : MonoBehaviour
 
     public void reStart()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
     public void Quit()
     {
