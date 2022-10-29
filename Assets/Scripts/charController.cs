@@ -58,4 +58,9 @@ public class charController : MonoBehaviour
 
         facingRight = !facingRight;
     }
+
+    public void Stop()
+    {
+        rb.velocity = Vector2.zero;
+    }
 }

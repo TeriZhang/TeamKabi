@@ -260,7 +260,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791641439924460897}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.086, y: 0.81, z: 0}
+  m_LocalPosition: {x: -0.501, y: 0.81, z: 0}
   m_LocalScale: {x: 0.097166, y: 0.097166, z: 0.097166}
   m_Children: []
   m_Father: {fileID: 1791641440002726540}
@@ -305,8 +305,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: -3587146350928859341, guid: e6290f725ad22e44b893942947d4d330,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 40d7bd7da951e6846b0f27dec1f0faaf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -329,7 +328,7 @@ GameObject:
   - component: {fileID: 1791641440002726543}
   - component: {fileID: 1791641440002726542}
   m_Layer: 0
-  m_Name: Sister
+  m_Name: Sister2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
