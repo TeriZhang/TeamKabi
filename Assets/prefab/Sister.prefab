@@ -387,3 +387,4 @@ MonoBehaviour:
   moveDir: {x: 0, y: 0}
   rb: {fileID: 1791641440002726543}
   moveSpeed: 2
+  facingRight: 1

@@ -30,6 +30,7 @@ public class gameDad : MonoBehaviour
             if(sister == false)
             {
                 sister = true;
+                sister1.GetComponent<charController>().Stop();
                 sister1.GetComponent<charController>().enabled = false;
                 sister2.GetComponent<charController>().enabled = true;
                 currentSister = sister2;
@@ -39,6 +40,7 @@ public class gameDad : MonoBehaviour
             {
                 sister = false;
                 sister1.GetComponent<charController>().enabled = true;
+                sister2.GetComponent<charController>().Stop();
                 sister2.GetComponent<charController>().enabled = false;
                 currentSister = sister1;
                 return;
