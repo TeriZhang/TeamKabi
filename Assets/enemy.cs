@@ -25,7 +25,7 @@ public class enemy : MonoBehaviour
         if (Vector2.Distance(transform.position, spots[currentSpot].transform.position) <0.2f)
         {
             currentSpot += 1;
-            if(currentSpot > totalSpot)
+            if(currentSpot >= totalSpot)
             {
                 currentSpot = 0;
             }
