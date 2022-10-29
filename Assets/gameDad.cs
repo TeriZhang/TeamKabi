@@ -9,6 +9,7 @@ public class gameDad : MonoBehaviour
     public bool sister;
 
     public CinemachineVirtualCamera mainCam;
+
     // Start is called before the first frame update
     void Start()
     {

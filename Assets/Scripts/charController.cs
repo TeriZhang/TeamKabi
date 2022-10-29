@@ -27,8 +27,8 @@ public class charController : MonoBehaviour
 
     void inputs()
     {
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
+        float moveX = Input.GetAxisRaw("Horizontal") ;
+        float moveY = Input.GetAxisRaw("Vertical") ;
 
         moveDir = new Vector2(moveX, moveY).normalized;
     }
