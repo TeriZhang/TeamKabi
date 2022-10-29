@@ -7,6 +7,9 @@ public class charController : MonoBehaviour
     public Vector2 moveDir;
     public Rigidbody2D rb;
     public float moveSpeed;
+    public bool facingRight;
+    float moveX;
+    float moveY;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +21,7 @@ public class charController : MonoBehaviour
     {
         inputs();
         move();
+
     }
 
     private void FixedUpdate()
@@ -27,13 +31,31 @@ public class charController : MonoBehaviour
 
     void inputs()
     {
-        float moveX = Input.GetAxisRaw("Horizontal") ;
-        float moveY = Input.GetAxisRaw("Vertical") ;
+        moveX = Input.GetAxisRaw("Horizontal");
+        moveY = Input.GetAxisRaw("Vertical");
 
         moveDir = new Vector2(moveX, moveY).normalized;
+
+        if (moveX > 0 && !facingRight)
+        {
+            Flip();
+        }
+        if(moveX < 0 && facingRight)
+        {
+            Flip();
+        }
     }
     void move()
     {
         rb.velocity = new Vector2(moveDir.x * moveSpeed, moveDir.y * moveSpeed);
+    }
+
+    void Flip()
+    {
+        Vector3 currentScale = gameObject.transform.localScale;
+        currentScale.x *= -1;
+        gameObject.transform.localScale = currentScale;
+
+        facingRight = !facingRight;
     }
 }
