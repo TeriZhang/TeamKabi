@@ -203,6 +203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sister
       objectReference: {fileID: 0}
+    - target: {fileID: 1791641440002726542, guid: 14330f108f4d94443a863181bf2ff9e9,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1791641440002726543, guid: 14330f108f4d94443a863181bf2ff9e9,
         type: 3}
       propertyPath: m_Constraints
@@ -9886,8 +9891,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496811405}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -49.838543, y: -6.5461707, z: 0}
-  m_LocalScale: {x: 108.073006, y: 13.115235, z: 5.6107955}
+  m_LocalPosition: {x: -21.99, y: -6.5461707, z: 0}
+  m_LocalScale: {x: 163.76006, y: 13.115235, z: 5.6107955}
   m_Children: []
   m_Father: {fileID: 1541229156}
   m_RootOrder: 0
