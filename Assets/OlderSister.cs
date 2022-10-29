@@ -18,6 +18,20 @@ public class OlderSister : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            GameObject enemyParent = other.gameObject.transform.parent.gameObject;
+            
+            enemyParent.GetComponent<enemy>().Stop();
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            GameObject enemyParent = other.gameObject.transform.parent.gameObject;
+            enemyParent.GetComponent<enemy>().Resume();
+        }
     }
 }
