@@ -36,6 +36,11 @@ public class YoungerSister : MonoBehaviour
             enemyParent.GetComponent<enemy>().Detected();
             speed = 1;
         }
+
+        if (other.gameObject.CompareTag("Exit"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); ;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)

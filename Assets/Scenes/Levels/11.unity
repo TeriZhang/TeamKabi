@@ -3026,9 +3026,10 @@ GameObject:
   m_Component:
   - component: {fileID: 147138692}
   - component: {fileID: 147138693}
+  - component: {fileID: 147138694}
   m_Layer: 0
   m_Name: New Sprite (34)
-  m_TagString: Untagged
+  m_TagString: Exit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3097,6 +3098,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &147138694
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147138691}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &147149514
 GameObject:
   m_ObjectHideFlags: 0
@@ -4640,7 +4667,6 @@ Transform:
   - {fileID: 699390758}
   - {fileID: 1138155396}
   - {fileID: 1373280498}
-  - {fileID: 1121428672}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23191,7 +23217,7 @@ GameObject:
   - component: {fileID: 1121428673}
   m_Layer: 0
   m_Name: Gate
-  m_TagString: Untagged
+  m_TagString: Exit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23204,11 +23230,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121428671}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 76.029366, y: -29.15335, z: 23.966578}
+  m_LocalPosition: {x: 69.02, y: -25.61, z: 0}
   m_LocalScale: {x: 0.63028, y: 0.63028, z: 0.63028}
   m_Children: []
-  m_Father: {fileID: 235143649}
-  m_RootOrder: 7
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!212 &1121428673
 SpriteRenderer:
@@ -25780,12 +25806,12 @@ PrefabInstance:
     - target: {fileID: 1791641440002726540, guid: 186ac67d0b90565428b4aff5a2b76221,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.72
+      value: 69.43
       objectReference: {fileID: 0}
     - target: {fileID: 1791641440002726540, guid: 186ac67d0b90565428b4aff5a2b76221,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.6
+      value: -23.79
       objectReference: {fileID: 0}
     - target: {fileID: 1791641440002726540, guid: 186ac67d0b90565428b4aff5a2b76221,
         type: 3}
