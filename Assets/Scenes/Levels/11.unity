@@ -9863,12 +9863,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 556507569}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &558682500 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1791641439924460897, guid: 14330f108f4d94443a863181bf2ff9e9,
-    type: 3}
-  m_PrefabInstance: {fileID: 1394592062}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &564059527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25752,26 +25746,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1791641439924460896, guid: 14330f108f4d94443a863181bf2ff9e9,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.11714659
-      objectReference: {fileID: 0}
-    - target: {fileID: 1791641439924460896, guid: 14330f108f4d94443a863181bf2ff9e9,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1171466
-      objectReference: {fileID: 0}
-    - target: {fileID: 1791641439924460896, guid: 14330f108f4d94443a863181bf2ff9e9,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1433991
-      objectReference: {fileID: 0}
-    - target: {fileID: 1791641439924460896, guid: 14330f108f4d94443a863181bf2ff9e9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.801
-      objectReference: {fileID: 0}
     - target: {fileID: 1791641440002726540, guid: 14330f108f4d94443a863181bf2ff9e9,
         type: 3}
       propertyPath: m_RootOrder
@@ -25847,11 +25821,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sister
       objectReference: {fileID: 0}
-    - target: {fileID: 1791641440002726542, guid: 14330f108f4d94443a863181bf2ff9e9,
-        type: 3}
-      propertyPath: sprite
-      value: 
-      objectReference: {fileID: 558682500}
     - target: {fileID: 1791641440002726542, guid: 14330f108f4d94443a863181bf2ff9e9,
         type: 3}
       propertyPath: moveSpeed
