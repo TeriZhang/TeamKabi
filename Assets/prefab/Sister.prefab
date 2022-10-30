@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1791641439469376357}
   - component: {fileID: 1791641439469376358}
   - component: {fileID: 1791641439469376356}
+  - component: {fileID: 4409209953244618420}
   m_Layer: 0
   m_Name: DetectionRing (1)
   m_TagString: Untagged
@@ -235,6 +236,18 @@ PolygonCollider2D:
       - {x: 0.073363945, y: 0.49458843}
       - {x: 0.0490072, y: 0.4975925}
       - {x: 0.02453239, y: 0.49939778}
+--- !u!114 &4409209953244618420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791641439469376362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 607bb943104555a47a77f45a9885525d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1791641439924460897
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,6 +436,7 @@ MonoBehaviour:
   rb: {fileID: 1791641440002726543}
   moveSpeed: 2
   facingRight: 1
+  animeSis: {fileID: 0}
 --- !u!212 &8941188776880901682
 SpriteRenderer:
   m_ObjectHideFlags: 0
