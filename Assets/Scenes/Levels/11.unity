@@ -15557,6 +15557,8 @@ MonoBehaviour:
   SoundOffUI: {fileID: 701789425}
   isplay: 0
   pauseOpen: 0
+  sisMusic: {fileID: 8300000, guid: eeadf3507f3e8e24fbb2868fdfc4415f, type: 3}
+  sisMusic2: {fileID: 8300000, guid: 5082439e35edd854f8b76465cb6b798e, type: 3}
 --- !u!82 &719631981
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15567,7 +15569,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 41ca1cedca9518848a7826976c666d7a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5082439e35edd854f8b76465cb6b798e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

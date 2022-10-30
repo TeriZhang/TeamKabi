@@ -20,8 +20,13 @@ public class pauseMenu : MonoBehaviour
     
     public bool isplay;
     public bool pauseOpen;
-    
-    
+
+    gameDad gamedad;
+
+    public AudioClip sisMusic;
+    public AudioClip sisMusic2;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,13 +46,17 @@ public class pauseMenu : MonoBehaviour
         isplay = true;
 
         pauseOpen = false;
-        
+
+        gamedad = GameObject.Find("gameDad").GetComponent<gameDad>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (isplay == false)
+      
+
+        if (isplay == true)
         {
             audioSource = GetComponent<AudioSource>();
             GetComponent<AudioSource>().Pause();
@@ -87,6 +96,21 @@ public class pauseMenu : MonoBehaviour
             SoundOnUI.SetActive(false);
             SoundOffUI.SetActive(true);
         }
+
+        if(gamedad.sister == true)
+        {
+            audioSource.clip = sisMusic;
+            GetComponent<AudioSource>().Play();
+        }
+
+
+        if(gamedad.sister == false)
+        {
+            audioSource.clip = sisMusic2;
+            GetComponent<AudioSource>().Play();
+        }
+
+       
 
      
     }
