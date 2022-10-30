@@ -13,6 +13,7 @@ public class charController : MonoBehaviour
     // Start is called before the first frame update
 
     AnimationSis anisis;
+    public GameObject animeSis;
 
 
     void Start()
@@ -55,6 +56,7 @@ public class charController : MonoBehaviour
     {
         rb.velocity = new Vector2(moveDir.x * moveSpeed, moveDir.y * moveSpeed);
         //anisis.animator.SetFloat("Speed", Mathf.Abs(moveDir.x * moveSpeed + moveDir.y * moveSpeed));
+        animeSis.GetComponent<Animator>().SetFloat("Pseed", Mathf.Abs(moveDir.x * moveSpeed + moveDir.y * moveSpeed));
     }
 
     void Flip()
