@@ -9,6 +9,8 @@ public class enemy : MonoBehaviour
     public int totalSpot;
     public float waitTime;
     public List<GameObject> spots;
+    public bool car;
+    
 
     public GameObject altered, talking;
     // Start is called before the first frame update
@@ -24,10 +26,15 @@ public class enemy : MonoBehaviour
 
         if (Vector2.Distance(transform.position, spots[currentSpot].transform.position) <0.2f)
         {
+            
             currentSpot += 1;
             if(currentSpot >= totalSpot)
             {
                 currentSpot = 0;
+                if (car == true)
+                {
+                    transform.position = spots[0].transform.position;
+                }
             }
         }
     }

@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 8187481723478057658}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.6, z: 0}
-  m_LocalScale: {x: 0.0067853937, y: 0.17822784, z: 0.17822784}
+  m_LocalScale: {x: 0.1, y: 0.17822784, z: 0.17822784}
   m_Children: []
   m_Father: {fileID: 8187481723737193756}
   m_RootOrder: 0
@@ -456,6 +456,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  car: 0
   altered: {fileID: 8187481723507641833}
   talking: {fileID: 8187481724769063898}
 --- !u!1 &8187481724769063898
