@@ -11,9 +11,13 @@ public class charController : MonoBehaviour
     float moveX;
     float moveY;
     // Start is called before the first frame update
+
+    AnimationSis anisis;
+
+
     void Start()
     {
-        
+        anisis = GameObject.Find("charSprite").GetComponent<AnimationSis>();
     }
 
     // Update is called once per frame
@@ -21,6 +25,8 @@ public class charController : MonoBehaviour
     {
         inputs();
         move();
+
+        
 
     }
 
@@ -48,6 +54,7 @@ public class charController : MonoBehaviour
     void move()
     {
         rb.velocity = new Vector2(moveDir.x * moveSpeed, moveDir.y * moveSpeed);
+        //anisis.animator.SetFloat("Speed", Mathf.Abs(moveDir.x * moveSpeed + moveDir.y * moveSpeed));
     }
 
     void Flip()
