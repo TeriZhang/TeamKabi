@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Turtorial : MonoBehaviour
 {
+    public GameObject jiaocheng;
+    
     public List<GameObject> ttt;
     public int current;
 
@@ -12,6 +14,7 @@ public class Turtorial : MonoBehaviour
     void Start()
     {
         current = 0;
+        jiaocheng.SetActive(true);
     }
 
     // Update is called once per frame

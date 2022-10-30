@@ -4940,7 +4940,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1699038304}
+      - m_Target: {fileID: 1507886865}
         m_MethodName: NextSlide
         m_Mode: 1
         m_Arguments:
@@ -29788,6 +29788,7 @@ GameObject:
   - component: {fileID: 1507886863}
   - component: {fileID: 1507886862}
   - component: {fileID: 1507886861}
+  - component: {fileID: 1507886865}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -29876,6 +29877,27 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1507886865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507886860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20dc573e2856b847bda6643c18a180e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jiaocheng: {fileID: 1699038302}
+  ttt:
+  - {fileID: 1865451813}
+  - {fileID: 1185718745}
+  - {fileID: 1590604977}
+  - {fileID: 176891632}
+  - {fileID: 1085892758}
+  - {fileID: 638503118}
+  current: 0
 --- !u!1 &1523132054
 GameObject:
   m_ObjectHideFlags: 0
@@ -33339,14 +33361,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1699038303}
-  - component: {fileID: 1699038304}
   m_Layer: 5
   m_Name: StartTurtorial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1699038303
 RectTransform:
   m_ObjectHideFlags: 0
@@ -33374,26 +33395,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1699038304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1699038302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f20dc573e2856b847bda6643c18a180e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ttt:
-  - {fileID: 1865451813}
-  - {fileID: 1185718745}
-  - {fileID: 1590604977}
-  - {fileID: 176891632}
-  - {fileID: 1085892758}
-  - {fileID: 638503118}
-  current: 0
 --- !u!1 &1699503342
 GameObject:
   m_ObjectHideFlags: 0
