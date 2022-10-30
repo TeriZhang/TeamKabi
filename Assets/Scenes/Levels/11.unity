@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -13530,6 +13530,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turtorial: {fileID: 1699038302}
+  sister: {fileID: 0}
+  sister2: {fileID: 0}
 --- !u!1 &639539401
 GameObject:
   m_ObjectHideFlags: 0
@@ -22525,7 +22527,7 @@ Transform:
   m_GameObject: {fileID: 1085892758}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.200016, z: 0}
-  m_LocalScale: {x: 1920.508, y: 1078.2977, z: 255.50433}
+  m_LocalScale: {x: 1739.7114, y: 976.7868, z: 231.45116}
   m_Children:
   - {fileID: 850587822}
   - {fileID: 1434931641}
@@ -25359,7 +25361,7 @@ RectTransform:
   m_GameObject: {fileID: 1185718745}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.84343, y: 0.84343, z: 0.84343}
   m_Children:
   - {fileID: 1660564022}
   - {fileID: 1964428353}
@@ -31819,6 +31821,8 @@ MonoBehaviour:
   - {fileID: 1085892758}
   - {fileID: 638503118}
   current: 0
+  sister: {fileID: 0}
+  sister2: {fileID: 0}
 --- !u!1 &1523132054
 GameObject:
   m_ObjectHideFlags: 0
@@ -33450,7 +33454,7 @@ RectTransform:
   m_GameObject: {fileID: 1590604977}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.86, y: 0.86, z: 0.86}
   m_Children:
   - {fileID: 500084724}
   - {fileID: 819788923}

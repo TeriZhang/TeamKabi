@@ -7,8 +7,10 @@ public class gameDad : MonoBehaviour
 {
     public GameObject sister1, sister2, currentSister;
     public bool sister;
-
+    public GameObject text;
     public CinemachineVirtualCamera mainCam;
+    public float destroyTimer = 5;
+    public float destroyTime = 0;
 
     public bool level2, button1, button2, pressed;
 
@@ -52,6 +54,8 @@ public class gameDad : MonoBehaviour
 
         if(level2 == true)
         {
+            
+            
             Level2();
         }
     }
@@ -62,8 +66,16 @@ public class gameDad : MonoBehaviour
         {
             if(pressed == true)
             {
+                destroyTime += 1 * Time.deltaTime;
+                if (destroyTime >= destroyTimer)
+                {
+
+                    Destroy(text);
+                }
                 return;
             }
+            
+            text.SetActive(true);
             GameObject gate = GameObject.Find("Gate");
             gate.SetActive(false);
             pressed = true;
