@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Sister2
   - Exit
+  - Button1
+  - Button2
   layers:
   - Default
   - TransparentFX

@@ -7,10 +7,11 @@ public class YoungerSister : MonoBehaviour
 {
     public float deathTimer,deathTime;
     public int speed;
+    public GameObject gamedaddy;
     // Start is called before the first frame update
     void Start()
     {
-        
+        gamedaddy = GameObject.Find("gameDad");
     }
 
     // Update is called once per frame
@@ -41,6 +42,15 @@ public class YoungerSister : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); ;
         }
+
+        if (other.gameObject.CompareTag("Button1"))
+        {
+            gamedaddy.GetComponent<gameDad>().Button1();
+        }
+        if (other.gameObject.CompareTag("Button2"))
+        {
+            gamedaddy.GetComponent<gameDad>().Button2();
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -50,6 +60,15 @@ public class YoungerSister : MonoBehaviour
             GameObject enemyParent = other.gameObject.transform.parent.gameObject;
             enemyParent.GetComponent<enemy>().Resume();
             speed = -1;
+        }
+
+        if (other.gameObject.CompareTag("Button1"))
+        {
+            gamedaddy.GetComponent<gameDad>().Button1off();
+        }
+        if (other.gameObject.CompareTag("Button2"))
+        {
+            gamedaddy.GetComponent<gameDad>().Button2off();
         }
     }
 
