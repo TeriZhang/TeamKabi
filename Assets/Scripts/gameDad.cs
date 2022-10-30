@@ -10,7 +10,7 @@ public class gameDad : MonoBehaviour
 
     public CinemachineVirtualCamera mainCam;
 
-    public bool level2,button1,button2;
+    public bool level2, button1, button2, pressed;
 
     // Start is called before the first frame update
     void Start()
@@ -60,8 +60,13 @@ public class gameDad : MonoBehaviour
     {
         if(button1 && button2)
         {
+            if(pressed == true)
+            {
+                return;
+            }
             GameObject gate = GameObject.Find("Gate");
             gate.SetActive(false);
+            pressed = true;
         }
         else
         {
