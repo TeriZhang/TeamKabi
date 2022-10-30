@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3118,17 +3118,27 @@ PrefabInstance:
     - target: {fileID: 8187481723478057659, guid: 8d7e300447748d740a64febb63e99519,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2770265
+      value: 0.23317875
       objectReference: {fileID: 0}
     - target: {fileID: 8187481723478057659, guid: 8d7e300447748d740a64febb63e99519,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2515864
+      value: 0.2117653
       objectReference: {fileID: 0}
     - target: {fileID: 8187481723478057659, guid: 8d7e300447748d740a64febb63e99519,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2515864
+      value: 0.2117653
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187481723478057659, guid: 8d7e300447748d740a64febb63e99519,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187481723478057659, guid: 8d7e300447748d740a64febb63e99519,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.31
       objectReference: {fileID: 0}
     - target: {fileID: 8187481723672169498, guid: 8d7e300447748d740a64febb63e99519,
         type: 3}
@@ -3652,17 +3662,17 @@ PrefabInstance:
     - target: {fileID: 8187481723478057659, guid: 8d7e300447748d740a64febb63e99519,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2770265
+      value: 0.23155537
       objectReference: {fileID: 0}
     - target: {fileID: 8187481723478057659, guid: 8d7e300447748d740a64febb63e99519,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2515864
+      value: 0.21029101
       objectReference: {fileID: 0}
     - target: {fileID: 8187481723478057659, guid: 8d7e300447748d740a64febb63e99519,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2515864
+      value: 0.21029101
       objectReference: {fileID: 0}
     - target: {fileID: 8187481723672169498, guid: 8d7e300447748d740a64febb63e99519,
         type: 3}
@@ -41750,12 +41760,12 @@ PrefabInstance:
     - target: {fileID: 1791641440002726540, guid: 186ac67d0b90565428b4aff5a2b76221,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.26
+      value: 1.08
       objectReference: {fileID: 0}
     - target: {fileID: 1791641440002726540, guid: 186ac67d0b90565428b4aff5a2b76221,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.06
+      value: -5.85
       objectReference: {fileID: 0}
     - target: {fileID: 1791641440002726540, guid: 186ac67d0b90565428b4aff5a2b76221,
         type: 3}
