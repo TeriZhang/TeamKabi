@@ -8,11 +8,16 @@ public class Turtorial : MonoBehaviour
     
     public List<GameObject> ttt;
     public int current;
+    public GameObject sister, sister2;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        sister = GameObject.Find("Sister");
+        sister2 = GameObject.Find("Sister2");
+        sister.GetComponent<charController>().enabled = false;
+        sister2.GetComponent<charController>().enabled = false;
         current = 0;
         jiaocheng.SetActive(true);
     }
