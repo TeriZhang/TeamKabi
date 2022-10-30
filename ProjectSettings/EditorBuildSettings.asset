@@ -18,12 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/3-SB.unity
     guid: 3ca7103d942aadd47b8eed4b6af36eff
   - enabled: 1
-    path: Assets/Scenes/Scene_Lose.unity
-    guid: cd70b144efa7f3b4eb186599a7e1fd36
-  - enabled: 1
     path: Assets/Scenes/Scene_Win.unity
     guid: b41f2d405de722a429d599945b678adb
+  - enabled: 1
+    path: Assets/Scenes/Scene_Lose.unity
+    guid: cd70b144efa7f3b4eb186599a7e1fd36
   - enabled: 0
-    path: Assets/Scenes/Levels/1-School.unity
-    guid: e8bed0606f5101a41a4001c61a1b1625
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

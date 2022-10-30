@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1340,7 +1340,7 @@ GameObject:
   - component: {fileID: 40877978}
   m_Layer: 0
   m_Name: Bush (44)
-  m_TagString: Untagged
+  m_TagString: Exit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1372,7 +1372,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.15849972, y: 0.25936127}
+  m_Offset: {x: -0.15849972, y: -1.6070652}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1383,7 +1383,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.7626514, y: 2.552559}
+  m_Size: {x: 4.7626514, y: 6.285412}
   m_EdgeRadius: 0
 --- !u!212 &40877979
 SpriteRenderer:
@@ -3078,6 +3078,8 @@ MonoBehaviour:
   - {fileID: 1082291425}
   - {fileID: 1082291425}
   current: 0
+  sister: {fileID: 0}
+  sister2: {fileID: 0}
 --- !u!1 &108914057
 GameObject:
   m_ObjectHideFlags: 0
@@ -19817,6 +19819,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turtorial: {fileID: 1130916589}
+  sister: {fileID: 0}
+  sister2: {fileID: 0}
 --- !u!1 &1082634305
 GameObject:
   m_ObjectHideFlags: 0
