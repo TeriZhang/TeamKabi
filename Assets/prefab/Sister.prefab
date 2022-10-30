@@ -249,6 +249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 607bb943104555a47a77f45a9885525d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gamedaddy: {fileID: 0}
 --- !u!114 &1394592066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,6 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 607bb943104555a47a77f45a9885525d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gamedaddy: {fileID: 0}
 --- !u!1 &1791641439924460897
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,7 +454,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 100
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -474,7 +476,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveDir: {x: 0, y: 0}
   rb: {fileID: 1791641440002726543}
-  moveSpeed: 5
+  moveSpeed: 12
   facingRight: 1
   animeSis: {fileID: 1791641439924460897}
 --- !u!212 &8941188776880901682

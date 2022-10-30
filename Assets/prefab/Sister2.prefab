@@ -251,6 +251,7 @@ MonoBehaviour:
   deathTimer: 2
   deathTime: 0
   speed: 0
+  gamedaddy: {fileID: 0}
 --- !u!1 &1791641439924460897
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,7 +408,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 100
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -429,7 +430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveDir: {x: 0, y: 0}
   rb: {fileID: 1791641440002726543}
-  moveSpeed: 2
+  moveSpeed: 6
   facingRight: 1
   animeSis: {fileID: 0}
 --- !u!61 &1210805387
