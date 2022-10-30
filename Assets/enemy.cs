@@ -38,9 +38,16 @@ public class enemy : MonoBehaviour
         talking.SetActive(true);
     }
 
+    public void Detected()
+    {
+        speed = 0;
+        altered.SetActive(true);
+    }
+
     public void Resume()
     {
         speed = 3;
         talking.SetActive(false);
+        altered.SetActive(false);
     }
 }

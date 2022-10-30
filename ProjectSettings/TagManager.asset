@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Bush
   - Enemy
+  - Sister2
   layers:
   - Default
   - TransparentFX
