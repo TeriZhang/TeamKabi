@@ -12,6 +12,7 @@ public class Hide : MonoBehaviour
     void Start()
     {
         gameDad = GameObject.Find("gameDad");
+        sisterIcon.SetActive(false);
     }
 
     // Update is called once per frame
